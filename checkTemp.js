@@ -1,4 +1,4 @@
-const checktemp = (temp) => {
+const checkTemp = (temp) => {
     const t = Number(temp);
     if (t >= 20) return -1
     if (t >=21 && t <=40 )return 0
